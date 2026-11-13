@@ -11,10 +11,19 @@ Open `index.html` in a browser. All pages, fonts and images are local; no server
 - Demophorius, https://demophorius.com/ (Awwwards SOTD): direct healthcare communication and restrained framing. Its desktop/mobile structure capture showed clear full-width bands and a strong footer; the prototype deliberately avoids the reference’s measured mobile overflow.
 - Health+, https://www.healthplus.cz/en/home (Awwwards Honorable Mention): a committed dark color field, oversized two-part headline and clean left/right hero tension.
 - Institute of Health, https://www.instituteofhealth.com/ (Awwwards Honorable Mention): one decisive, tightly cropped clinical image and a stacked credential rhythm rather than decorative healthcare graphics.
-- Significo, https://www.significo.com (Awwwards SOTD): poster-scale typography as the main visual event. Prestige retains its own Oswald/Poppins system and green palette.
+- Significo, https://www.significo.com (Awwwards SOTD): poster-scale typography as the main visual event. Prestige retains its own Newsreader/Manrope type system and muted green accent.
 
 ## Visual direction
-Open Design’s **Editorial — Monocle / FT magazine** direction informed the v2 structure: print-like scale contrast, no rounded-card language, fine rules, one decisive image, and whitespace doing the structural work. Open Design’s artifact linter reports 0 P0, 0 P1 and 0 P2 findings on all three pages.
+Open Design’s **Editorial — Monocle / FT magazine** direction informed the v2 structure: print-like scale contrast, no rounded-card language, fine rules, one decisive image, and whitespace doing the structural work. The final v3 palette restrains green to the primary action and small measured accents. Open Design’s artifact linter reports 0 P0, 0 P1 and 0 P2 findings on all three pages.
+
+## SEO foundations
+- Unique titles, meta descriptions and matching Open Graph metadata.
+- One semantic H1 per page, ordered H2/H3 structure and descriptive internal links.
+- `ProfessionalService` structured data with verified business identity, location, phone, founding date, service topics and employee count.
+- `Service` structured data on the specialty and Towson pages.
+- `FAQPage` structured data matching the visible six Towson questions and answers.
+- Real local images with dimensions, hero preload/LCP priority and no third-party scripts.
+- Mobile layout verified at 390px with no horizontal overflow.
 
 ## Audit fixes
 | Audit finding | Mockup response |
@@ -29,7 +38,7 @@ Open Design’s **Editorial — Monocle / FT magazine** direction informed the v
 ## Illustrative or replacement assets
 - Every price band is a design placeholder, not an approved Prestige rate or quote.
 - Coding and compliance reviewer names and credentials must be supplied.
-- The logo and photographs come from the existing Prestige website. The homepage hero uses an existing revenue-cycle flat lay; the behavioral page uses an existing consultation image, and its reviewer byline uses the cropped founder portrait. Production should replace these with original full-resolution assets if available.
+- The logo and photographs come from the existing Prestige website. The homepage hero now uses Prestige’s existing medical-team image; the behavioral page uses an existing consultation image, and its reviewer byline uses the cropped founder portrait. Production should replace the team image with a real Prestige staff photograph if available.
 - All calls use the existing `(410) 835-0009` number. No contact form or fake submission is included.
 
 ## Verification
@@ -37,7 +46,7 @@ Open Design’s **Editorial — Monocle / FT magazine** direction informed the v
 - Final measured checks: no page-level horizontal overflow, no JavaScript errors, all images loaded, mobile menus opened, and the Towson FAQ opened.
 - Hallmark static sweep: clean after fixes.
 - Open Design artifact linter: 0 P0, 0 P1, 0 P2 on all three pages.
-- Independent hero review: `fix`; 12 of 13 combined review findings resolved. The remaining partial is the stock desk image, which should be replaced with an owner-supplied team, office or HBMA certificate photo.
+- Independent hero review: `fix`; the fold, masthead, mobile crop, headline specificity and image treatment were corrected. The remaining partial is photographic authenticity: the team image comes from Prestige’s existing website and should be replaced with a real staff photograph if available.
 - Independent finish review: `fix`; copy, pricing spans, phone URIs, reviewer strip, fold height and heading specificity corrected.
 
 ## Open Design status
