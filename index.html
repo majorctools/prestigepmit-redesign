@@ -6,14 +6,14 @@
   <title>Prestige PMIT | Medical billing with a Maryland team</title>
   <meta name="description" content="A redesign concept for Prestige Practice Management & IT Services, an HBMA-accredited medical billing team in Owings Mills, Maryland.">
   <link rel="preload" href="assets/revenue-cycle.jpg" as="image" fetchpriority="high">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles-v2.css">
   <script src="site.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html" aria-label="Prestige PMIT home"><img src="assets/prestige-logo.png" width="1566" height="910" alt="Prestige Practice Management & IT Services"></a>
+      <a class="brand" href="index.html" aria-label="Prestige PMIT home"><img src="assets/prestige-logo.png" width="1566" height="910" alt="Prestige Practice Management & IT Services"></a><span class="brand-note">Owings Mills, Maryland</span>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
       <ul class="nav-links" id="nav-links">
         <li><a href="#specialties">Specialties</a></li>
@@ -24,14 +24,14 @@
     </div>
   </header>
   <main id="main">
-    <section class="hero">
+    <section class="hero hero--home" data-od-id="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <h1>Your billing details, handled.</h1>
-          <p class="lead">Revenue cycle, coding, compliance and enrollment for medical practices.</p>
+          <h1>HBMA-accredited billing.</h1>
+          <p class="lead">Revenue cycle, coding, compliance and enrollment for practices in Maryland and nationwide.</p>
           <div class="hero-actions">
             <a class="button" href="#request">Request service</a>
-            <a class="text-link" href="tel:(410) 835-0009">(410) 835-0009</a>
+            <a class="text-link" href="tel:+14108350009">(410) 835-0009</a>
           </div>
         </div>
         <figure class="hero-figure">
@@ -41,7 +41,7 @@
       </div>
     </section>
 
-    <section class="trust" aria-label="Business credentials">
+    <section class="trust" aria-label="Business credentials" data-od-id="credentials">
       <div class="container trust-grid">
         <div class="fact"><strong>HBMA</strong><span>Accredited</span></div>
         <div class="fact"><strong>13 years</strong><span>In business since 2013</span></div>
@@ -50,14 +50,14 @@
       </div>
     </section>
 
-    <section class="section" id="specialties">
+    <section class="section" id="specialties" data-od-id="specialties">
       <div class="container">
         <div class="section-head">
           <h2>Seven specialties. One accountable team.</h2>
           <p>Billing support shaped around the way each practice delivers care.</p>
         </div>
         <div class="specialty-grid">
-          <article class="specialty"><a href="behavioral-health.html"><h3>Behavioral health</h3><p>Eligibility, coding review, claims and denial follow-up for behavioral health practices.</p><span class="service-meta">Explore the service</span></a></article>
+          <article class="specialty"><a href="behavioral-health.html"><h3>Behavioral health</h3><p>Eligibility, coding review, claims and denial follow-up for behavioral health practices.</p><span class="service-meta">View the service</span></a></article>
           <article class="specialty"><a href="#request"><h3>Nephrology</h3><p>Revenue cycle support with specialty-specific coding and claim requirements in view.</p><span class="service-meta">Discuss your practice</span></a></article>
           <article class="specialty"><a href="#request"><h3>Wound care</h3><p>Claim workflows that connect documentation, coding and follow-up.</p><span class="service-meta">Discuss your practice</span></a></article>
           <article class="specialty"><a href="#request"><h3>Sleep study</h3><p>Billing support for the administrative details behind sleep services.</p><span class="service-meta">Discuss your practice</span></a></article>
@@ -68,50 +68,49 @@
       </div>
     </section>
 
-    <section class="section pricing" id="pricing">
+    <section class="section pricing" id="pricing" data-od-id="pricing">
       <div class="container">
         <div class="section-head">
           <h2>Start with a useful price range.</h2>
           <p>A clear band answers the first commercial question without pretending every practice needs the same scope.</p>
         </div>
-        <div class="price-grid">
-          <article class="price"><h3>Revenue cycle operations</h3><div class="amount">4% to 6%</div><p>Illustrative percentage of monthly collections. Final scope covers claims, payment posting, follow-up and reporting.</p></article>
+        <div class="price-grid price-grid--lead">
+          <article class="price price--lead"><h3>Revenue cycle operations</h3><div class="amount">4% to 6%</div><p>Illustrative percentage of monthly collections. Final scope covers claims, payment posting, follow-up and reporting.</p></article>
           <article class="price"><h3>Specialty billing</h3><div class="amount">5% to 8%</div><p>Illustrative percentage of monthly collections. Specialty, payer mix and service scope affect the confirmed rate.</p></article>
-          <article class="price"><h3>Coding and compliance</h3><div class="amount">Scoped</div><p>Auditing and compliance work is priced after the records, cadence and review requirements are known.</p></article>
+          <article class="price"><h3>Coding and compliance</h3><div class="amount amount--text">Scoped after review</div><p>Auditing and compliance work is priced after the records, cadence and review requirements are known.</p></article>
         </div>
         <p class="price-note"><strong>Illustrative until confirmed.</strong> These are design-placeholder bands, not published Prestige rates or a quote. Replace them with approved pricing before launch.</p>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" data-od-id="local-presence">
       <div class="container local-grid">
         <div class="local-copy">
-          <h2>Local knowledge belongs on the page.</h2>
-          <p>Prestige is based in Owings Mills and serves Greater Baltimore and practices nationwide. Service-area pages should show that connection, not just swap a town name.</p>
+          <h2>A Maryland address. A wider reach.</h2>
+          <p>Our team works from Owings Mills with practices across Greater Baltimore and nationwide.</p>
           <a class="text-link" href="towson.html">See the Towson service-area page</a>
         </div>
         <ul class="town-list">
           <li><strong>Owings Mills</strong><span>Prestige’s Maryland home base.</span></li>
-          <li><strong>Towson</strong><span>Local page concept with named communities and Maryland-specific onboarding.</span></li>
+          <li><strong>Towson</strong><span>Local billing support with a Maryland-based team.</span></li>
           <li><strong>Greater Baltimore</strong><span>A focused metro footprint shaped around practices actually served.</span></li>
           <li><strong>Nationwide</strong><span>Remote revenue cycle support for practices beyond Maryland.</span></li>
         </ul>
       </div>
     </section>
 
-    <section class="section section--tight">
+    <section class="section section--tight" data-od-id="reviewers">
       <div class="container">
-        <div class="section-head"><h2>Expertise needs a name.</h2><p>Every service and article should identify who wrote or reviewed it.</p></div>
+        <div class="section-head"><h2>Who stands behind the claim.</h2><p>The founder and the coding and compliance reviewers accountable for the work.</p></div>
         <div class="authors">
-          <div class="author"><strong>Krystle Brown</strong><span>Founder and CEO</span><span>Founder perspective and business review</span></div>
-          <div class="author"><strong>Coding lead</strong><span>Name and credentials to be confirmed</span><span>Technical reviewer placeholder</span></div>
-          <div class="author"><strong>Compliance lead</strong><span>Name and credentials to be confirmed</span><span>Compliance reviewer placeholder</span></div>
+          <div class="author"><strong>Krystle Brown</strong><span>Founder and CEO</span><span>Business review</span></div>
         </div>
+        <p class="author-note">Coding and compliance reviewer names and credentials will be added before publication.</p>
       </div>
     </section>
 
-    <section class="close" id="request">
-      <div class="container close-grid"><h2>Talk through your billing workflow.</h2><div class="hero-actions"><a class="button" href="tel:(410) 835-0009">Call (410) 835-0009</a></div></div>
+    <section class="close" id="request" data-od-id="request">
+      <div class="container close-grid"><h2>Bring us the billing workflow.</h2><div class="close-actions"><a class="button" href="tel:+14108350009">Call (410) 835-0009</a></div></div>
     </section>
   </main>
   <footer class="site-footer">
