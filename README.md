@@ -37,7 +37,7 @@ Open Design’s **Editorial — Monocle / FT magazine** direction informed the v
 - Final measured checks: no page-level horizontal overflow, no JavaScript errors, all images loaded, mobile menus opened, and the Towson FAQ opened.
 - Hallmark static sweep: clean after fixes.
 - Open Design artifact linter: 0 P0, 0 P1, 0 P2 on all three pages.
-- Independent hero review: `fix`; 11 of 12 findings resolved. The remaining partial is the stock desk image, which should be replaced with an owner-supplied team, office or HBMA certificate photo.
+- Independent hero review: `fix`; 12 of 13 combined review findings resolved. The remaining partial is the stock desk image, which should be replaced with an owner-supplied team, office or HBMA certificate photo.
 - Independent finish review: `fix`; copy, pricing spans, phone URIs, reviewer strip, fold height and heading specificity corrected.
 
 ## Open Design status
