@@ -106,6 +106,8 @@ ul,ol{margin:0;padding:0}
 .authors{border-top:1px solid var(--color-ink)}
 .author{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.9fr) minmax(0,1.4fr);gap:var(--space-lg);padding-block:var(--space-lg);border-bottom:1px solid var(--color-rule);align-items:baseline}
 .author strong{font-family:var(--font-display);font-size:2rem;line-height:1.1}
+.author-identity{display:flex;align-items:center;gap:var(--space-md);min-width:0}
+.author-photo{width:80px;height:96px;object-fit:cover;object-position:center 18%;flex-shrink:0}
 .author span{font-size:var(--text-sm);color:var(--color-muted)}
 .author-note{font-size:var(--text-sm);color:var(--color-muted);padding-top:var(--space-md)}
 .close{padding-block:var(--space-3xl);background:var(--color-ink);color:var(--color-on-dark)}

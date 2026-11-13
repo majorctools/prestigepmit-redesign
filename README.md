@@ -38,7 +38,7 @@ Open Design’s **Editorial — Monocle / FT magazine** direction informed the v
 ## Illustrative or replacement assets
 - Every price band is a design placeholder, not an approved Prestige rate or quote.
 - Coding and compliance reviewer names and credentials must be supplied.
-- The logo and photographs come from the existing Prestige website. The homepage hero now uses Prestige’s existing medical-team image; the behavioral page uses an existing consultation image, and its reviewer byline uses the cropped founder portrait. Production should replace the team image with a real Prestige staff photograph if available.
+- The logo and photographs come from the existing Prestige website. The homepage hero now uses Prestige’s existing medical-team image; the homepage reviewer strip and behavioral byline use the cropped founder portrait, and the behavioral hero uses an existing consultation image. Production should replace the team image with a real Prestige staff photograph if available.
 - All calls use the existing `(410) 835-0009` number. No contact form or fake submission is included.
 
 ## Verification
