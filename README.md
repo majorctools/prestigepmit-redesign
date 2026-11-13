@@ -19,9 +19,11 @@ Open Design’s **Editorial — Monocle / FT magazine** direction informed the v
 ## SEO foundations
 - Unique titles, meta descriptions and matching Open Graph metadata.
 - One semantic H1 per page, ordered H2/H3 structure and descriptive internal links.
+- Answer-first copy built around claim stages, payer requirements, specialty rules, Maryland onboarding and named reviewers rather than generic service adjectives.
 - `ProfessionalService` structured data with verified business identity, location, phone, founding date, service topics and employee count.
 - `Service` structured data on the specialty and Towson pages.
 - `FAQPage` structured data matching the visible six Towson questions and answers.
+- Named local entities (Owings Mills, Towson, Maryland Medicaid, ePREP) and service terms used in natural copy rather than keyword lists.
 - Real local images with dimensions, hero preload/LCP priority and no third-party scripts.
 - Mobile layout verified at 390px with no horizontal overflow.
 
