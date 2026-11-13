@@ -25,7 +25,7 @@ Open `index.html` in a browser. All pages, fonts and images are local; no server
 ## Illustrative or replacement assets
 - Every price band is a design placeholder, not an approved Prestige rate or quote.
 - Coding and compliance reviewer names and credentials must be supplied.
-- The logo and photographs come from the existing Prestige website. The founder portrait is cropped from its existing banner to remove baked-in text. Production should replace that crop with an original full-resolution portrait if available.
+- The logo and photographs come from the existing Prestige website. The homepage hero uses an existing revenue-cycle flat lay; the behavioral page uses an existing consultation image, and its reviewer byline uses the cropped founder portrait. Production should replace these with original full-resolution assets if available.
 - All calls use the existing `(410) 835-0009` number. No contact form or fake submission is included.
 
 ## Verification
